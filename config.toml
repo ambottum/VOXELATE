@@ -1,0 +1,11 @@
+baseURL = "http://example.org/"
+languageCode = "id"
+title = "VOXELATE"
+theme = "seminyak"
+
+[params]
+  theme_color = "#66ccff"
+  color_palette = "blue"
+  background_image_url = "images/bgimgCO.png"
+  referrer_policy = "same-origin"
+  google_fonts = "Oswald|Raleway"

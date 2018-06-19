@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{ partial "header" .}}
+{{ if eq .Title "Home"}}
+    {{ .RelPermalink }}
+{{ end }}
+{{ if in .URL "posts"}}
+    {{ partial "article" . }}
+{{ else }}
+    {{ .Content }}
+{{ end }}
+{{ end }}
