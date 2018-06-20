@@ -1,7 +1,12 @@
 @font-face {
   font-family: regtext;
-  //src: url(FONTZ/Quick.otf)
+  src: url(FONTZ/Quick.otf);
 }
+
 .active {
+  font-family: regtext;
+}
+
+.fa-li fa fa-lg {
   font-family: regtext;
 }
