@@ -1,4 +1,5 @@
 {
+
     "title": "Creative Mindz",
     "date": "2018-05-11T22:35:06+05:30",
     "tags": ["Sticker", "creativity"],
@@ -22,4 +23,4 @@
     ]
 }
 
-Show your love for creative thought with this little guy :)
+
