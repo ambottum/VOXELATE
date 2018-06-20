@@ -1,11 +1,4 @@
-@font-face {
-  font-family: headtext;
-  src: url(FONTZ/Quick.otf)
-}
-@font-face {
-  font-family: bodytext;
-  src: url(FONTZ/MankSans-Medium.ttf)
-}
+
 body {
   margin: 0;
   padding: 0;

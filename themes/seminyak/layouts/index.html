@@ -5,7 +5,7 @@
 
 {{ define "main" -}}
 <link rel="stylesheet" href="{{ .Site.BaseURL }}css/screen.css">
-<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/custom-shop.css">
   <div class="w-full h-screen max-w-screen-xl mx-auto bg-{{ .Site.Params.color_palette }}-darker bg-cover bg-center bg-no-repeat" {{ with .Site.Params.background_image_url }}style="background-image:url({{ . }})"{{ end }}>
 
     <div class="static h-screen bg-transparent text-{{ .Site.Params.color_palette }}-lighter font-raleway lg:text-xl">
@@ -16,7 +16,7 @@
         {{ partial "header" . }}
       </div>
       {{ with .Params.image_credits }}
-        <div class="absolute w-full pin-b pb-8 p-8 text-right opacity-75 text-base">
+        <div class="absolute w-full pin-b pb-6 p-6 text-right opacity-75 text-base">
           <p>{{ . | safeHTML }}</p>
         </div>
 
