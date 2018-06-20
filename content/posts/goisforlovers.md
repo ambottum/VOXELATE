@@ -8,11 +8,9 @@ tags = [
     "themes",
     "development",
 ]
+categories = []
 date = "2014-04-02"
-categories = [
-    "Development",
-    "golang",
-]
+
 image = ""
 +++
 
