@@ -1,0 +1,42 @@
+@font-face {
+  font-family: regtext;
+  src: url(FONTZ/Quick.otf)
+}
+.container-fluid {
+  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("DSC03517.png")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
+  background-position: 50% -100%;
+  position: relative;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+}
+
+.text-left {
+  color: white;
+  font-family: regtext;
+}
+.row a:hover * {
+  cursor: pointer !important;
+  color: rgb(126,126,227);
+}
+.row *{
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+.text-center {
+  color: rgb(61,65,112);
+  font-family: regtext;
+  margin: 0 !important;
+}
+.navbar-nav {
+  font-family: regtext!important;
+}
+nav {
+  padding-top: 0!important;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}

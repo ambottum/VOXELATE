@@ -2,6 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>{{ partial "head.html" . }}</head>
 <body>
+	{{ if in .URL "products"}}
+		{{ partial "header.html" . }}
+	{{ end }}
     {{ block "main" . }}
     {{ end }}
     {{ partial "scripts.html" . }}
