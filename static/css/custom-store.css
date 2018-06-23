@@ -1,4 +1,9 @@
 @font-face {
+  font-family: regtext;
+  src: url(FONTZ/Quick.otf)
+}
+
+@font-face {
   font-family: headtext;
   src: url(FONTZ/Quick.otf)
 }
@@ -6,6 +11,91 @@
   font-family: bodytext;
   src: url(FONTZ/MankSans-Medium.ttf)
 }
+.container-fluid {
+  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("DSC03517.png")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
+  background-position: 50% -100%;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover !important;
+  flex: 1;
+}
+
+.text-left {
+  color: white;
+  font-family: regtext;
+}
+.row a:hover * {
+  cursor: pointer !important;
+  color: rgb(126,126,227);
+}
+.row *{
+  text-decoration: none !important;
+  border: 0 !important;
+  box-shadow: 0 0 0 rgba(0,0,0,0) !important;
+}
+.text-center {
+  color: rgb(61,65,112);
+  font-family: regtext;
+  margin: 0 !important;
+}
+
+.navbar-nav {
+  font-family: regtext;
+}
+nav {
+  padding-top: 1!important;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+/*for colored border around text areas*/
+.purple-border textarea {
+    border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.green-border-focus .form-control:focus {
+    border: 2px solid #8bc34a;
+    box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .50);
+}
+
+
+
+
+
+.row a:hover * {
+  cursor: pointer !important;
+  color: rgb(126,126,227);
+}
+.row *{
+  text-decoration: none !important;
+  border-bottom: 0 !important;
+}
+.text-center {
+  color: rgb(61,65,112);
+  font-family: regtext;
+  margin: 0 !important;
+}
+.navbar-nav {
+  font-family: regtext!important;
+}
+nav {
+  padding-top: 0!important;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -32,10 +122,12 @@ time {
   display: flex;
   flex-direction: column;
 }
-
 #container > * {
-  width: 700px;
-  margin: 0 auto;
+  width: 100%;
+  min-height: 100%;
+  flex-basis: 100%;
+  //flex: 1;
+  //margin: 0 auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -80,7 +172,7 @@ time {
 
 #container nav {
   border-bottom: solid 3px #cecece;
-  padding-bottom: 0.5em;
+  padding-bottom: 0.1em;
   font-family: bodytext;
 }
 

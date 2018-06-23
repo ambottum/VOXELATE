@@ -4,7 +4,7 @@
   "description": "Really, really, really ridiculously good looking splash page for Hugo",
   "scripts": {
     "build": "npm run build:css",
-    "build:css": "tailwind build src/styles.css -c ./src/tailwind-custom.js -o ./static/css/screen.css",
+    "build:css": "tailwind build src/custom.css -c ./src/tailwind-custom.js -o ./static/css/screen.css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version"
   },
