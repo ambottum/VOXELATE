@@ -1,6 +1,4 @@
 baseURL = "http://voxelate.net/"
-relativeURLs = true
-uglyURLs = true 
 languageCode = "id"
 title = "VOXELATE"
 theme = "seminyak"
@@ -8,6 +6,6 @@ theme = "seminyak"
 [params]
   theme_color = "#66ccff"
   color_palette = "blue"
-  background_image_url = "images/bgimgCO.png"
+  background_image_url = "static/css/DSC03517.png"
   referrer_policy = "same-origin"
   google_fonts = "Oswald|Raleway"

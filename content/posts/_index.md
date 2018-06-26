@@ -1,5 +1,5 @@
-+++
-title = "BrainFood"
-menu = "main"
-weight = "20"
-+++
+---
+title: "BrainFood"
+menu: "main"
+weight: "20"
+---
