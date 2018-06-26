@@ -1,4 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://voxelate.net/"
+relativeURLs = true
+uglyURLs = true 
 languageCode = "id"
 title = "VOXELATE"
 theme = "seminyak"
