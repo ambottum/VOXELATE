@@ -1,5 +1,5 @@
-+++
-title = "Store"
-menu = "main"
-weight = "20"
-+++
+---
+title: "Store"
+menu: "main"
+weight: "20"
+---
