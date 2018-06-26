@@ -6,13 +6,17 @@
     <div class="row">
         <div class="col-12">
             {{ partial "products/common/site-main-nav.html" . }} 
+
         </div>
     </div>
     <div class="row align-items-start">
         <div class="col-12 col-md-6 order-md-2">
             {{ partial "products/single/product-single-heading.html" . }} 
-            <div class="d-none d-md-block">{{ .Content }}
-                {{ partial "products/order_form.html" . }}
+            
+            <div class="d-none d-md-block">
+                
+                <p> {{ .Content }} </p>
+                <p> {{ partial "products/order_form.html" . }}</p>
             </div>
         </div>
         <div class="col-12 col-md-6 order-md-1">
@@ -22,7 +26,9 @@
         </div>
         <div class="col-12 col-md-6 order-md-2 d-block d-md-none">
             <p>{{ .Content }}</p>
+            <p>{{ partial "products/order_form.html" . }}</p>
         </div>
+
     </div>
 </article>
 {{ end }}
