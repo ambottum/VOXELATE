@@ -12,12 +12,8 @@
   src: url(FONTZ/MankSans-Medium.ttf)
 }
 .container-fluid {
-  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("DSC03517.png")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
+  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("DSC03517small.png")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
   background-position: 50% -100%;
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -125,9 +121,7 @@ time {
 #container > * {
   width: 100%;
   min-height: 100%;
-  flex-basis: 100%;
-  //flex: 1;
-  //margin: 0 auto;
+  flex-basis: 100% !important;
 }
 
 @media only screen and (max-width: 800px) {
