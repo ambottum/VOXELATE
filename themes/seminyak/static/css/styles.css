@@ -26,8 +26,8 @@ time {
 }
 
 #container > * {
-  width: 700px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0;
 }
 
 @media only screen and (max-width: 800px) {
