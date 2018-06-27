@@ -12,7 +12,7 @@
   src: url(FONTZ/MankSans-Medium.ttf)
 }
 .container-fluid {
-  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("DSC03517small.png")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
+  background: linear-gradient(to top, rgba(60,60,112,0.7) 85%, rgba(255,255,255) 95%, rgb(255,255,255) 100%),url("bgimgCOfastload.jpg")no-repeat fixed,linear-gradient(to right, rgb(195,216,233), rgb(213,229,242),rgb(203,220,238));
   background-position: 50% -100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
