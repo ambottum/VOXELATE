@@ -12,6 +12,8 @@
 }
 
 Description to come soon :)
-Mobiles are constructed with natural materials and will vary accordingly
 
+Decal: 4"x4" print, hanging mobile approximately 1 square foot
+
+Mobiles are constructed with natural materials and will vary accordingly
 Natural materials have been disinfected to prevent transport of insects

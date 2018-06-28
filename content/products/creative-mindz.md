@@ -23,4 +23,6 @@
     ]
 }
 
+Show your love for creative thought with this little guy :)
 
+2"x2" vinyl sticker, weather resistant & adventure ready 

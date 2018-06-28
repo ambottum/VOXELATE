@@ -4,8 +4,8 @@ title = "VOXELATE"
 theme = "seminyak"
 
 [params]
-  theme_color = "#66ccff"
-  color_palette = "blue"
+  theme_color = "#7e7ee3"
+  color_palette = "purple"
   background_image_url = "images/bgimgCOsmallfastload.jpg"
   referrer_policy = "same-origin"
   google_fonts = "Oswald|Raleway"
