@@ -7,6 +7,7 @@
   "thumbnailImage": "/img/sea2mts/sea_to_mts1.png",
   "actualPrice":"$15.00",
   "inStock": true,
+  "cafePress":false,
   "options": {},
   "variants": []
 }

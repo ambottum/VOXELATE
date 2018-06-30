@@ -9,6 +9,7 @@
     "actualPrice": null,
     "comparePrice": null,
     "inStock": null,
+    "cafePress":false,
     "options": {
 
             "Amount" : ["1", "2", "3"]
@@ -25,4 +26,4 @@
 
 Show your love for creative thought with this little guy :)
 
-2"x2" vinyl sticker, weather resistant & adventure ready 
+2"x2" vinyl sticker, weather resistant & adventure ready

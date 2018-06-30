@@ -7,6 +7,7 @@
   "thumbnailImage": "/img/NSsuperior/SuperiorNorthShore.png",
   "actualPrice":"$15.00",
   "inStock": true,
+  "cafePress":true,
   "options": {},
   "variants": []
 }

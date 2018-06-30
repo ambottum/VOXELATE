@@ -1,4 +1,4 @@
-baseURL = "http://voxelate.net/"
+baseURL = "https://voxelate.net/"
 languageCode = "id"
 title = "VOXELATE"
 theme = "seminyak"

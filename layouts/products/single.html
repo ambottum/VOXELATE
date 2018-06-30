@@ -17,6 +17,9 @@
 
                 <p> {{ .Content }} </p>
                 <p> {{ partial "products/order_form.html" . }}</p>
+                {{ if .Params.cafePress }}
+                  <p> {{ partial "products/cafe_press_link.html" . }}</p>
+                {{ end }}
             </div>
         </div>
         <div class="col-12 col-md-6 order-md-1">
@@ -27,6 +30,9 @@
         <div class="col-12 col-md-6 order-md-2 d-block d-md-none text-secondary">
             <p>{{ .Content }}</p>
             <p>{{ partial "products/order_form.html" . }}</p>
+            {{ if .Params.cafePress }}
+              <p> {{ partial "products/cafe_press_link.html" . }}</p>
+            {{ end }}
         </div>
 
     </div>
