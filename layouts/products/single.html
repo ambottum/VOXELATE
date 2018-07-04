@@ -36,6 +36,9 @@
             {{ if .Params.cafePress }}
               <p> {{ partial "products/cafe_press_link.html" . }}</p>
             {{ end }}
+            {{ if eq .Params.title "Creative Mindz" }}
+              <p> {{ partial "products/creative_mindz_paypal_button.html" . }}</p>
+            {{ end }}
         </div>
 
     </div>
