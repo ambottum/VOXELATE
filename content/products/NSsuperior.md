@@ -12,9 +12,9 @@
   "variants": []
 }
 
-Description to come soon :)
+Inspired by a late spring camping trip to the North Shore of Lake Superior. With the rugged cliffs echoing your gaze  across the expanse of water, your face is met with the glow of irresistable sunshine & your mind effortless freedom.
 
-Decal: 4"x4" print, hanging mobile approximately 1 square foot
+Decal: 4"x4" Giclee print, hanging mobile approximately 1 square foot
 
 Mobiles are constructed with natural materials and will vary accordingly
 Natural materials have been disinfected to prevent transport of insects

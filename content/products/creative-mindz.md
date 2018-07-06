@@ -10,10 +10,7 @@
     "comparePrice": null,
     "inStock": null,
     "cafePress":false,
-    "options": {
-
-            "Amount" : ["1", "2", "3"]
-    },
+    "options": {},
     "variants": [
         {
             "optionCombination" : ["1"],
