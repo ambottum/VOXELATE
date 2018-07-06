@@ -1,7 +1,7 @@
 {
   "title": "Sea to Mountains",
   "date": "2018-05-12T15:54:25+05:30",
-  "tags": ["drawing","nature","mountains","sea"],
+  "tags": ["drawing","nature","mountains","sea","explore","psychedelic","waves","sunshine","hippie","hippy","boho","artistic","dreamcatcher","pine cones"],
   "categories": ["Mobiles"],
   "images": ["/img/sea2mts/sea2mts_thumbnail.png"],
   "thumbnailImage": "/img/sea2mts/sea2mts_thumbnail.png",

@@ -1,7 +1,7 @@
 {
   "title": "Lake Superior North Shore",
   "date": "2018-05-12T15:54:25+05:30",
-  "tags": ["drawing","nature","mountains","sea"],
+  "tags": ["drawing","nature","lake superior","Lake Superior North Shore","explore","psychedelic","waves","sunshine","hippie","hippy","boho","artistic","dreamcatcher","pine cones"],
   "categories": ["Mobiles"],
   "images": ["/img/NSsuperior/SuperiorNorthShore.png"],
   "thumbnailImage": "/img/NSsuperior/SuperiorNorthShore.png",
