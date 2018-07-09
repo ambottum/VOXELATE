@@ -13,6 +13,7 @@
 }
 
 
+Available starting 7/25  
 I believe that an important factor to happiness is to remain in constant awe of the incredible beauty of the world around us. Stick this little flower on your notebook or water bottle for a daily reminder
 
 3"x3" vinyl contour sticker, weather resistant & adventure ready
