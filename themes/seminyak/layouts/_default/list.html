@@ -6,17 +6,17 @@
     {{ $baseurl := .Site.BaseURL }}
 
     {{ if eq .Data.Singular "tag" }}
-        <h2>#{{ .Title | lower }}</h2>
+        <h2 class="post_head">#{{ .Title | lower }}</h2>
     {{ else }}
-        <h2>{{ .Title }}</h2>
+        <h2 class="post_head">{{ .Title }}</h2>
     {{ end }}
 
     {{ .Content }}
 
     {{ range (.Paginate (.Data.Pages.GroupByDate "2006")).PageGroups  }}
 
-    <h3>{{ .Key }}</h3>
-    <ul>
+    <h3 class="post_head">{{ .Key }}</h3>
+    <ul class="post_list">
         {{ range .Pages }}
         <li>
             <a href="{{ .Permalink }}">{{ if .Draft }}DRAFT: {{end}}{{ .Title | markdownify }}</a>

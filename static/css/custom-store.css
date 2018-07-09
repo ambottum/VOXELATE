@@ -82,6 +82,14 @@ body {
 article {
   font-family: bodytext;
 }
+.post_head {
+  font-family: headtext;
+  color: #333333;
+}
+.post_list {
+  font-family: bodytext;
+  color: #333333
+}
 h1,
 h2,
 h3,
