@@ -79,6 +79,9 @@ body {
   font-family: bodytext;
   color: #333333;
 }
+article {
+  font-family: bodytext;
+}
 h1,
 h2,
 h3,
