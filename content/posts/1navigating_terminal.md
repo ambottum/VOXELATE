@@ -19,51 +19,64 @@ Because of this, Terminal is usually a great way to get a lot of work done very 
 
 ##### 1) Open Terminal:
 Terminal in your finder, under applications, open Terminal
-A screen will open, with a few lines of text that may look something like:
-
+A screen will open, with a few lines of text that may look something like:  
+<br>
 `Last login: Wed Jul  4 09:51:37 on ttys002`  
-`Annas-MacBook-Pro:~ annabottum$`
+`Annas-MacBook-Pro:~ annabottum$`  
 
 ##### 2) Check where we are:
 On the command line, print `pwd` which stands for *print working directory*; hit enter  
 `Last login: Wed Jul  4 09:51:37 on ttys002`  
 `Annas-MacBook-Pro:~ annabottum$ pwd`  
 `/Users/annabottum`  
-Here we can see I am currently located in my account (**annabottum**) inside of the **Users** folder.
+Here we can see I am currently located in my account (**annabottum**) inside of the **Users** folder.  
 
-##### 3) See what's inside:
+##### 3) See what's inside:  
 If you're opening a folder you haven't used for a while, you may want to see what it contains there are two ways to do this: if you are in the folder whose contents you wish to view, type `ls` *(list)* then hit enter.
-Let's say, however, we know there is a file called **Desktop** inside **annabottum**, instead of moving into **Desktop** to list its contents, we can type  `ls Desktop`
+Let's say, however, we know there is a file called **Desktop** inside **annabottum**, instead of moving into **Desktop** to list its contents, we can type  
+`ls Desktop`  
 
 ##### 4) Move around:
 The base command to move through your file system is `cd`, *change directory*: simply `cd` will move you to the root directory, so in addition we need to make some specifications.
-Say we'd like to move *down* into **Desktop** from **annabottum**, since **annabottum** has multiple folders inside, or below it, we must specify where we want to jump down to:
-`cd Desktop/`  Just to be sure we did what we wanted to, type `pwd`  
+Say we'd like to move *down* into **Desktop** from **annabottum**, since **annabottum** has multiple folders inside, or below it, we must specify where we want to jump down to:  
+`cd Desktop/`  
+Just to be sure we did what we wanted to, type  
+`pwd`  
 Terminal should return  `/Users/annabottum/Desktop`  
-If there were a folder in **Desktop** called **test_1**, we could jump into it from **annabottum** (two levels above) by typing the following:
+If there were a folder in **Desktop** called **test_1**, we could jump into it from **annabottum** (two levels above) by typing the following:  
 `cd Desktop/Lesson_1/`  
-Now, if we want to move back up into **Desktop**, since there is only one direct *up* from **Lesson_1**, we can simply type
+Now, if we want to move back up into **Desktop**, since there is only one direct *up* from **Lesson_1**, we can simply type  
 `cd ..`
-To move up *two* levels to **annabottum**, we type
-`cd ../../`
+To move up *two* levels to **annabottum**, we type  
+`cd ../../`  
 
-##### 5) Create a folder:
-Let's make a folder in Desktop that will contain your first file. `cd` int **Desktop** and enter
+##### 5) Create a folder:  
+Let's make a folder in Desktop that will contain your first file. `cd` int **Desktop** and enter  
+
 `mkdir Lesson_1`  `mkdir` stands for make directory, and will create a folder called Lesson_1
 
-##### 5) Create a file:
+##### 5) Create a file:  
 `cd` into **Lesson_1**
- and create a file named **Script_1**:  `vi Script_1`
+ and create a file named **Script_1**:  
+ `vi Script_1`  
  To enter text, hit *i* on the keyboard; you are now in *insert* mode.
  After editing or adding to your file, you will want to save your changes. To leave *insert* mode, hit *esc* on the keyboard.
- There are mulitple ways to do the next step, but I like `:wq`, which signifies *write*, then *quit*. After hitting enter, you will find yourself back on the command line, outside the file.
+ There are mulitple ways to do the next step, but I like  
+ `:wq`  
+ which signifies *write*, then *quit*. After hitting enter, you will find yourself back on the command line, outside the file.
 
  A quick note: On the command line, a space is considered a boundary between one element and the next, so when naming files and folders, be sure to replace spaces with underscores.
 
 ##### 6) Move file:
-We want to move **Script_1** from **Lesson_1** to **Desktop**.
-`mv` is the move command, and its syntax is as follows: `mv file_name destination_folder`
-So here we type `mv Script_1 Desktop`  `cd` up to **Desktop** and do a quick `ls` to be sure it moved.
+We want to move **Script_1** from **Lesson_1** to **Desktop**.  
+`mv`  
+ is the move command, and its syntax is as follows:  
+ `mv file_name destination_folder`  
+So here we type  
+`mv Script_1 ~/Desktop`  
+`cd` up to **Desktop** and do a quick `ls` to be sure it moved.
+
+Quick note: `~` signifies *home directory*, so with `~/Desktop`, you are telling your computer to point home, then look for **Desktop**   
 
 ##### 7) Delete file:
 Since our skillset is growing by the minute, we need to delete **Script_1** to make room for our next project.
