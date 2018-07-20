@@ -463,9 +463,22 @@ ul.pagination li {
 }
 .social-media {
   margin: 0.25rem !important;
-
+  position: relative;
 }
 .social-media:hover {
   cursor: pointer !important;
   color: rgb(126,126,227);
+}
+.social-media:last-of-type{
+  background-image: url('../images/voxLoGo.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.social-media:last-of-type:hover{
+  background-image: url('../images/voxLoGoPurp.png');
+  background-repeat: no-repeat;
+  background-size:cover;
+  border: none;
+  text-decoration: none;
+  outline: none;
 }

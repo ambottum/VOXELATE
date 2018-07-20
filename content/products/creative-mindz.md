@@ -1,25 +1,17 @@
 {
-
-    "title": "Creative Mindz",
-    "date": "2018-05-11T22:35:06+05:30",
-    "tags": ["Sticker", "creativity"],
-    "categories": ["Stickers"],
-    "images": ["/img/creative-mindz/creative_mindz.png"],
-    "thumbnailImage": "/img/creative-mindz/creative_mindz.png",
-    "actualPrice": null,
-    "comparePrice": null,
-    "inStock": null,
-    "cafePress":false,
-    "options": {},
-    "variants": [
-        {
-            "optionCombination" : ["1"],
-            "comparePrice": null,
-            "actualPrice": "$3.00",
-            "inStock": true
-        }
-    ]
+  "title": "Creative Mindz",
+  "date": "2018-05-12T15:54:25+05:30",
+  "tags": ["drawing","nature","lake superior","Lake Superior North Shore","explore","psychedelic","waves","sunshine","hippie","hippy","boho","artistic","dreamcatcher","pine cones"],
+  "categories": ["Stickers"],
+  "images": ["/img/creative-mindz/creative_mindz.png"],
+  "thumbnailImage": "/img/creative-mindz/creative_mindz.png",
+  "actualPrice":"$3.00",
+  "inStock": true,
+  "cafePress":false,
+  "options": {},
+  "variants": []
 }
+
 
 Show your love for creative thought with this little guy :)
 
