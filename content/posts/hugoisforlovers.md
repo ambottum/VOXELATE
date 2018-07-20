@@ -10,6 +10,7 @@ tags: [
 date: "2014-04-02"
 
 image: ""
+draft: true
 ---
 
 ## Step 1. Install Hugo

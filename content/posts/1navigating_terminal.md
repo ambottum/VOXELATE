@@ -3,7 +3,7 @@ author: Anna Bottum
 title: Hello and Navigating Terminal
 date: 2018-07-06
 tags: []
-categories: ["code"]
+categories: []
 ---
 
 #### Hello!

@@ -12,6 +12,7 @@ categories: []
 date: "2014-04-02"
 
 image: ""
+draft: true
 ---
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
