@@ -3,7 +3,7 @@
   "date": "2018-05-12T15:54:25+05:30",
   "tags": ["drawing","nature","lake superior","Lake Superior North Shore","explore","psychedelic","waves","sunshine","hippie","hippy","boho","artistic","dreamcatcher","pine cones"],
   "categories": ["Mobiles"],
-  "images": ["/img/NSsuperior/SuperiorNorthShore.png"],
+  "images": ["/img/NSsuperior/SuperiorNorthShore.png","/img/NSsuperior/LSNSthumbnail1.jpg"],
   "thumbnailImage": "/img/NSsuperior/SuperiorNorthShore.png",
   "actualPrice":"$15.00",
   "inStock": true,

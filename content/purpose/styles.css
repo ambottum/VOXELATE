@@ -1,6 +1,6 @@
 @font-face {
   font-family: bodytext;
-  src: url(/../../themes/seminyak/images/css/FONTZ/MankSans-Medium.ttf)
+  src: url(MankSans-Medium.ttf)
 }
 body {
   background: url("DSC03516.JPG");
