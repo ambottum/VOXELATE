@@ -32,6 +32,9 @@
                 {{ if eq .Params.title "Live in Awe" }}
                   <p> {{ partial "products/live_in_awe_paypal_button.html" . }}</p>
                 {{ end }}
+                {{ if eq .Params.title "Contemplation" }}
+                  <p> {{ partial "products/contemplation_paypal_button.html" . }}</p>
+                {{ end }}
             </div>
         </div>
         <div class="col-12 col-md-6 order-md-1">
@@ -56,6 +59,9 @@
             {{ end }}
             {{ if eq .Params.title "Live in Awe" }}
               <p> {{ partial "products/live_in_awe_paypal_button.html" . }}</p>
+            {{ end }}
+            {{ if eq .Params.title "Contemplation" }}
+              <p> {{ partial "products/contemplation_paypal_button.html" . }}</p>
             {{ end }}
         </div>
 
