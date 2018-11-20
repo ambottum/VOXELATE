@@ -1,6 +1,6 @@
 ---
 author: Anna Bottum
-title: Pt. 2 Physical Therapy
+title: Life with a Two-Legged Dog - Physical Therapy
 date: 2018-11-20
 tags: []
 categories: []
